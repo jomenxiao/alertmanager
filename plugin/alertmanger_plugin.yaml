@@ -1,0 +1,24 @@
+global:
+  listen_port: 28082
+  webhook_path: '/api/alertmangerplugin'
+
+
+kafka_config:
+  kafka_address: '10.0.3.4:9092,10.0.3.5:9092,10.0.3.6:9092'
+  kafka_topic: 'test'
+
+sms_config:
+  sms_host: '127.0.0.1'
+  sms_port: '6661'
+  sms_branchno: 'branchno'
+  sms_channo: 'channo'
+  sms_immedflag: '1'
+  sms_mobile: '123123123,1231414213'
+  sms_operator: 'system'
+  sms_username: 'sa'
+  sms_password: '123'
+  sms_retval: '1'
+  sms_transcode: 'a'
+  sms_packfmt: 'V'
+  sms_sendtime: "2018"
+  sms_message: 'test'
